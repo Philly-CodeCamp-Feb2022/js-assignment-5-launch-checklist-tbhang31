@@ -1,4 +1,4 @@
-require('isomorphic-fetch');
+import 'isomorphic-fetch';
 
 function addDestinationInfo(document, name, diameter, star, distance, moons, imageUrl) {
     document.innerHTML = `
@@ -68,7 +68,7 @@ function pickPlanet(planets) {
     let pickedPlanet = Math.round(Math.random()*planets.length);
     return pickedPlanet;
 }
-
+}
 
 module.exports.addDestinationInfo = addDestinationInfo;
 module.exports.validateInput = validateInput;

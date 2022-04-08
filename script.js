@@ -1,7 +1,7 @@
-const pickPlanet = require('./scriptHelper.js');
-const addDestinationInfo = require('./scriptHelper.js');
-const myFetch = require('./scriptHelper.js');
-const formSubmission = require('./scriptHelper.js');
+import pickPlanet from './scriptHelper.js';
+import addDestinationInfo from './scriptHelper.js';
+import myFetch from './scriptHelper.js';
+import formSubmission from './scriptHelper.js';
 
 window.addEventListener("load", function(event) {
     let missionTarget = document.getElementById("missionTarget")
